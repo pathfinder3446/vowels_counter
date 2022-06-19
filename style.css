@@ -1,0 +1,40 @@
+body{
+    background-color: lightslategray;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12rem;
+}
+
+#text {
+    margin-top: 2rem;
+    /* margin-bottom: 1rem; */
+    resize: none;
+    width: 13rem;
+    height: 5rem;
+    word-wrap: break-word;
+    word-break: break-all;
+    padding: 0.2rem;
+    border-radius: 7px;
+  }
+  
+  span {
+    color: red;
+    font-weight: 800;
+  }
+
+#btn{
+    border-radius: 7px;
+    height: 2rem;
+    width: 13rem;
+    background-color: lightgreen;
+    
+}
+#btn:hover{
+    cursor: pointer;
+    
+}
